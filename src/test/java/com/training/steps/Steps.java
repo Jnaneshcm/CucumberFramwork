@@ -44,7 +44,10 @@ public class Steps extends BaseTest{
 
 
 	
-	
+	/*  This is to testing the commit changes to git
+	 * 
+	 * 
+	 */
 	@Given("User is on {string}")
 	public void user_is_on(String Page) {
 		page = pageFactory.initialize(Page);
